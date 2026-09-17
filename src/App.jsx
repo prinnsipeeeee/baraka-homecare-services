@@ -15,7 +15,7 @@ import { MessageCircle } from "lucide-react";
 
 // Global Baraka Brand Configuration (Riyadh, KSA)
 const BRAND_CONFIG = {
-  whatsappNumber: "966563900946", // Baraka Homecare Riyadh: 0563900946
+  whatsappNumber: "966563900946",
   whatsappDefaultMsg: "Hello Baraka Homecare Services! I would like to inquire about newborn care packages in Riyadh.",
 };
 

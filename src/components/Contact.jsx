@@ -13,9 +13,8 @@ import {
 } from "lucide-react";
 
 export default function Contact() {
-  const whatsappNumber = "966563900946"; // Official Baraka KSA WhatsApp
+  const whatsappNumber = "966563900946"; 
 
-  // State para sa form
   const [formData, setFormData] = useState({
     parentName: "",
     district: "",
@@ -62,7 +61,6 @@ export default function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // I-format ang ready-to-send template message para sa WhatsApp
   const handleWhatsAppSubmit = (e) => {
     e.preventDefault();
 
